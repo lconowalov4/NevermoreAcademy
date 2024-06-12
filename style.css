@@ -232,7 +232,7 @@ h3 {
     opacity: 1;
 }
 
-.clubs {
+.clubs,.events {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -240,23 +240,23 @@ h3 {
     color: #fff;
 }
 
-.club-col {
+.club-col,.events-col {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
 
-.club-col img {
+.club-col img,.events-col img {
     width: 100%;
     border-radius: 10px;
 }
 
-.club-col p {
+.club-col p,.events-col p {
     padding: 0;
 }
 
-.club-col h3 {
+.club-col h3,.events-col h3 {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
@@ -383,4 +383,77 @@ h3 {
 
 .about-col p {
     padding: 15px 0 25px;
+}
+
+.blog-content {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.blog-left {
+    flex-basis: 65%;
+}
+
+.blog-left img {
+    width: 100%;
+}
+
+.blog-left h2 {
+  font-weight: 600;
+  margin: 30px 0;  
+}
+
+.blog-left p {
+    padding: 0;
+}
+
+.blog-right {
+    flex-basis: 32%;
+}
+
+.blog-right h3 {
+    background: #391164;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-right div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.comment-box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3 {
+    text-align: left;
+}
+
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+
+.comment-form button {
+    margin: 10px 0;
+}
+
+@media(max-width:700px) {
+     .sub-header h1 {
+        font-size: 24px;
+     }
 }
