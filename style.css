@@ -1,3 +1,9 @@
+:root {
+    --dark-purple:#391164;
+    --ocher: #E5A513;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -46,7 +52,7 @@ nav {
     content: '';
     width: 0%;
     height: 2px;
-    background: #E5A513;
+    background: var(--ocher);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -89,8 +95,8 @@ nav {
 }
 
 .hero-btn:hover {
-    border: 1px solid #E5A513;
-    background: #E5A513;
+    border: 1px solid var(--ocher);
+    background: var(--ocher);
     transition: 1s;
 }
 
@@ -109,7 +115,7 @@ nav .material-symbols-outlined {
 
     .nav-links {
         position: fixed;
-        background: #391164;
+        background: var(--dark-purple);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -275,7 +281,7 @@ h3 {
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #391164;
+    background: var(--dark-purple);
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -414,7 +420,7 @@ h3 {
 }
 
 .blog-right h3 {
-    background: #391164;
+    background: var(--dark-purple);
     padding: 7px 0;
     font-size: 16px;
     margin-bottom: 20px;
